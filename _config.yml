@@ -2,13 +2,13 @@ title:              Bransgore Vets
 description:        Small Animal Vets in Bransgore
 
 # Site subpath, e.g. /blog
-baseurl:            "https://psaikido.github.io/bransgore-vets"
+baseurl:            ""
 
 # Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
 permalink:          /:title/
 
 # Site base hostname & protocol, e.g. http://example.com
-url:                "https://jekyll-theme-desk.netlify.com"
+url:                "https://psaikido.github.io/bransgore-vets"
 
 # Site logo, dark and light depending on page hero text setting dark/light
 logo_image:

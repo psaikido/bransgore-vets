@@ -1,0 +1,45 @@
+$hilight: #890906;
+
+.hc-table {
+    width: 100%;
+
+    th {
+        color: $global-muted-background;
+        background-color: $hilight;
+        padding: 6px;
+    }
+}
+
+footer {
+    .copyright {
+        color: $hilight;
+    }
+
+    .footer-left {
+        float: left;
+        width: 30%;
+    }
+
+    .footer-center {
+        float: left;
+        width: 40%;
+        text-align: center;
+    }
+
+    .footer-right {
+        float: right;
+        width: 30%;
+        text-align: right;
+    }
+
+    .copyright,
+    .footer-right {
+        font-size: 80%;
+    }
+
+    .footer-left,
+    .footer-center,
+    .footer-right {
+        line-height: 47px;
+    }
+}

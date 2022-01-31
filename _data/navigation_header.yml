@@ -1,0 +1,21 @@
+# Navbar menu navigation links
+- title: Home
+  url: /
+
+- title: Staff
+  url: /
+
+- title: Terms
+  url: /
+
+- title: Services
+  url: /
+
+- title: Facilities
+  url: /
+
+- title: Healthcare
+  url: /
+
+- title: Emergency
+  url: /

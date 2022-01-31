@@ -1,0 +1,59 @@
+title:              Bransgore Vets
+description:        Small Animal Vets in Bransgore
+
+# Site subpath, e.g. /blog
+baseurl:            ""
+
+# Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
+permalink:          /:title/
+
+# Site base hostname & protocol, e.g. http://example.com
+url:                "https://jekyll-theme-desk.netlify.com"
+
+# Site logo, dark and light depending on page hero text setting dark/light
+logo_image:
+  # light:          logo-left.jpg  # e.g. logo.png, upload logo image file to /assets/posts/ folder
+  #  dark:           logo-dark.svg  # e.g. logo.png, upload logo image file to /assets/posts/ folder
+
+# Author settings, displayed on about page
+author:
+    name:           Hugh Carroll
+    email:          hughie@carrollonline.co.uk
+    website:        https://hugle.co.uk
+
+# Social share buttons
+# twitter_username:   somename
+# github_username:    somename
+
+# Default footer image settings
+footer:
+   copyright:      Bransgrove Vets 2007 - 2022
+
+
+# Google analytics code, get your code here https://www.google.com/analytics/
+google_analytics:
+
+# Google maps API key, get your key here: https://developers.google.com/maps/documentation/javascript/get-api-key
+google_maps_api_key:
+
+# Path to post content assets directory i.e post images, pdfs etc
+post_assets:        /assets/posts/
+
+# Build settings
+markdown:           kramdown
+highlighter:        rouge
+
+gems:
+  - jekyll-seo-tag
+  - jekyll-gist
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+
+sass:
+  style:            compressed
+
+collections:
+  faqs:
+    output: false

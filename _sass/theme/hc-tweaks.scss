@@ -1,19 +1,29 @@
 $hilight: #890906;
 
-.hc-table {
-    width: 100%;
+html, body {
+    height: 100%;
+    margin: 0;
+}
 
-    th {
-        color: $global-muted-background;
-        background-color: $hilight;
-        padding: 6px;
+#wrapper {
+    min-height: calc(100% - 52px);
+}
+
+header {
+    .uk-navbar-center .logo-accreditation {
+        position: absolute;
+        top: 30px;
+        left: -150px;
     }
 }
 
+.hilight {
+    color: $hilight;
+}
+
 footer {
-    .copyright {
-        color: $hilight;
-    }
+    border-top: 1px solid #e5e5e5;
+    height: 52px;
 
     .footer-left {
         float: left;
@@ -43,3 +53,13 @@ footer {
         line-height: 47px;
     }
 }
+.hc-table {
+    width: 100%;
+
+    th {
+        color: $global-muted-background;
+        background-color: $hilight;
+        padding: 6px;
+    }
+}
+

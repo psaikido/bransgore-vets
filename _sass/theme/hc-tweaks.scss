@@ -1,4 +1,5 @@
 $hilight: #890906;
+$base-bkg-color: #f8f8f8;
 
 html, body {
     height: 100%;
@@ -14,6 +15,31 @@ header {
         position: absolute;
         top: 30px;
         left: -150px;
+    }
+
+    &.uk-background-secondary {
+        .logo-accreditation {
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            img {
+                height: 80px;
+            }
+        }
+
+        .logo-pages {
+            position: absolute;
+            top: 0;
+            right: 0;
+
+            img {
+                height: 80px;
+            }
+        }
+        .uk-navbar-container:not(.uk-navbar-transparent) {
+            background-color: $base-bkg-color;
+        }
     }
 }
 

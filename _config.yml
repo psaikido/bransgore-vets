@@ -12,8 +12,7 @@ url:                "https://psaikido.github.io/bransgore-vets"
 
 # Site logo, dark and light depending on page hero text setting dark/light
 logo_image:
-  # light:          logo-left.jpg  # e.g. logo.png, upload logo image file to /assets/posts/ folder
-  #  dark:           logo-dark.svg  # e.g. logo.png, upload logo image file to /assets/posts/ folder
+  light: logo-bransgorevets.jpg
 
 # Author settings, displayed on about page
 author:
@@ -38,6 +37,7 @@ google_maps_api_key:
 
 # Path to post content assets directory i.e post images, pdfs etc
 post_assets:        /assets/posts/
+img_assets:         /assets/img/
 
 # Build settings
 markdown:           kramdown

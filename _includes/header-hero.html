@@ -14,7 +14,7 @@
     {% assign text = "light" %}
 {% endif %}
 
-<header class="uk-background-{{ align }}-center uk-background-cover" style="{% if page.hero.background %}background-color: {{ page.hero.background }}; {% endif %}background-image: url({% if image contains 'http' %}{{ image }}{% else %}{{ site.post_assets | absolute_url }}{{ image }}{% endif %});">
+<header class="uk-background-{{ align }}-center uk-background-cover" style="{% if page.hero.background %}background-color: {{ page.hero.background }}; {% endif %}background-image: url({% if image contains 'http' %}{{ image }}{% else %}{{ site.img_assets | absolute_url }}{{ image }}{% endif %});">
     <div class="uk-overlay-header" style="{% if page.hero.overlay %}background: {{ page.hero.overlay }};{% endif %}">
 
         <nav class="uk-navbar-container uk-navbar-transparent uk-{{ text }}">
@@ -23,10 +23,7 @@
 
         <div class="uk-section section-hero {{ text }}" data-uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat: true">
             <div class="uk-container">
-                <div class="uk-text-center">
-                    <img src="{{ site.post_assets | absolute_url }}logo-left.jpg" />
-                </div>
-
+                <img class="uk-align-center" src="{{ site.img_assets | absolute_url }}{{ site.logo_image.light }}" />
                 {% if page.subtitle %}<p class="subtitle uk-text-lead uk-text-center">{{ page.subtitle | escape }}</p>{% endif %}
 
                 <div class="uk-article-meta uk-text-center">

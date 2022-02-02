@@ -1768,7 +1768,8 @@
 
     .uk-navbar-container > .uk-container .uk-navbar-left {
         margin-left: (-$navbar-nav-item-padding-horizontal);
-        margin-right: (-$navbar-nav-item-padding-horizontal);
+        /*margin-right: (-$navbar-nav-item-padding-horizontal);*/
+        margin-right: 20px;
     }
     .uk-navbar-container > .uk-container .uk-navbar-right { margin-right: (-$navbar-nav-item-padding-horizontal); }
 

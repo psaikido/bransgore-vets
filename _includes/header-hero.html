@@ -26,22 +26,8 @@
                 <img class="uk-align-center" src="{{ site.img_assets | absolute_url }}{{ site.logo_image.light }}" />
                 {% if page.subtitle %}<p class="subtitle uk-text-lead uk-text-center">{{ page.subtitle | escape }}</p>{% endif %}
 
-                <div class="uk-article-meta uk-text-center">
-                    {% if page.id and site.author.name %}
-                        by {{ site.author.name }}
-                    {% endif %}
-                    {% if page.id and page.categories %}in
-                        {% for category in page.categories %}
-                            <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-                            {% unless forloop.last %}{% endunless %}
-                        {% endfor %}
-                    {% endif %}
-                    {% if page.layout == 'about' and site.author.bio %}
-                        <div class="uk-container uk-container-small uk-margin-medium-top">
-                            {{ site.author.bio }}
-                        </div>
-                    {% endif %}
-
+                <div class="uk-text-center uk-light">
+                   Tel: 01425 672742 
                 </div>
 
                 {% if page.hero.search %}

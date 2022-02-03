@@ -9,6 +9,6 @@ permalink: newsletters
 {% assign pdfs = site.static_files | where: "pdf", true %}
 
 {% for pdf in pdfs reversed %}
-[{{ pdf.basename }}]( {{ pdf.path }} )
+[{{ pdf.basename }}]( {{ site.url }}{{ pdf.path }} )
 {% endfor %}
 

@@ -8,7 +8,7 @@ baseurl:            ""
 permalink:          /:title/
 
 # Site base hostname & protocol, e.g. http://example.com
-url:                "https://psaikido.github.io/bransgore-vets"
+url:                "https://psaikido.github.io/bransgore-vets/"
 
 # Site logo, dark and light depending on page hero text setting dark/light
 logo_image:

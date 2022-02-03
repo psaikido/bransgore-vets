@@ -39,6 +39,12 @@ google_maps_api_key:
 post_assets:        /assets/posts/
 img_assets:         /assets/img/
 
+defaults:
+  - scope:
+      path: "newsletters"
+    values:
+      pdf: true
+
 # Build settings
 markdown:           kramdown
 highlighter:        rouge

@@ -1,21 +1,21 @@
 # Navbar menu navigation links
 - title: Home
-  url: /
+  url: 
 
 - title: Staff
-  url: /
+  url: staff
 
 - title: Terms
-  url: /
+  url: terms
 
 - title: Services
-  url: /
+  url: services
 
 - title: Facilities
-  url: /
+  url: facilities
 
 - title: Healthcare
-  url: /
+  url: healthcare
 
 - title: Emergency
-  url: /
+  url: emergency

@@ -1,0 +1,43 @@
+---
+layout: default
+---
+<div class="uk-section">
+    <div class="uk-container uk-container-small">
+
+        <article class="uk-article">
+
+            <h1 class="uk-article-title">{{ page.title | escape }}</h1>
+
+            <div class="uk-article-content">
+
+                <ul>
+                {% for link in site.data.healthcare %}
+                    {% if link.title == 'Dogs' %}
+                        {% for sublink in link.sub %}
+                            {% if sublink.url contains 'http' %}
+                                {% assign domain = '' %}
+                            {% else %}
+                                {% assign domain = '' | absolute_url %}
+                            {% endif %}
+
+                            <li>
+                            {% assign pageurl =page.url | remove: "/" %} 
+
+                            {% if sublink.url == pageurl %}
+                                {{ sublink.title }}
+                            {% else %}
+                                <a href="{{ domain }}{{ sublink.url }}">{{ sublink.title }}</a>
+                            {% endif %}
+                            </li>
+                        {% endfor %}
+                    {% endif %}
+                {% endfor %}
+                </ul>
+
+                {{ content }}
+            </div>
+
+        </article>
+
+    </div>
+</div>

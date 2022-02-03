@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Contact Us
-subtitle: 
+url: pages/contact/
+permalink: contact
 ---
 
 Bransgore Vets  
@@ -10,6 +11,7 @@ Ringwood Road
 Bransgore  
 Christchurch  
 Dorset BH23 8AA  
-Tel: 01425 672742     Fax: 01425 672742  
+Tel: 01425 672742  
+Fax: 01425 672742  
 
 Email: enquiries(at)bransgorevets.co.uk

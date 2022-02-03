@@ -1,0 +1,89 @@
+# Healthcare navigation
+
+- title: Cats
+  url: cats
+  sub:
+    - title: Care of your cat
+      url: cats 
+
+    - title: Care of your kitten
+      url: kitten-care
+      sub:
+        - title: Flea Control
+          url: flea-control
+
+        - title: Insurance
+          url: insurance
+
+        - title: Kitten Vaccination
+          url: kitten-vaccination
+
+        - title: Microchipping
+          url: microchipping
+
+        - title: Neutering
+          url: neutering
+
+        - title: Nutrition for your Kitten
+          url: kitten-nutrition
+
+        - title: Socialisation
+          url: socialisation
+
+        - title: Worming your Kitten
+          url: worming
+
+    - title: Dental care of your cat
+      url: cat-dental-care
+
+    - title: Feline Gingivitis or Stomatitis
+      url: feline-gingivitis
+
+- title: Dogs
+  url: dogs
+  sub:
+    - title: Care of your Dog
+      url: dogs 
+
+    - title: Dental Care of your Dog
+      url: dogs-dental 
+
+    - title: Lungworm
+      url: lungworm 
+
+    - title: Puppy Pack
+      url: puppy-pack 
+      sub:
+        - title: Care of your Puppy
+          url: puppy-pack 
+
+        - title: Canine Flea Control
+          url: canine-flea-control
+
+        - title: Hip Dysplasia
+          url: hip-dysplasia
+
+        - title: Insurance for your Dog or Puppy
+          url: dog-or-puppy-insurance
+
+        - title: Microchipping Puppies
+          url: microchipping-puppy
+
+        - title: Neutering Dogs
+          url: dog-neutering
+
+        - title: Nutrition for your Dog
+          url: dog-nutrition
+
+        - title: Socialisation and Dog or Puppy Training
+          url: socialisation-training
+
+        - title: Vaccinations for your Puppy
+          url: puppy-vaccinations
+
+        - title: Worming your Puppy or Dog
+          url: dog-worming
+
+- title: Ticks & Lyme Disease
+  url: ticks
+

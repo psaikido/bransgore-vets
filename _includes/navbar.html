@@ -10,13 +10,15 @@
                     {% if link.url contains 'http' %}
                         {% assign domain = '' %}
                     {% else %}
-                        {% assign domain = '' | relative_url %}
+                        {% assign domain = '' | absolute_url %}
                     {% endif %}
-                    {% if link.url == page.url %}
+
+                    {% if link.title == page.title %}
                         {% assign current = ' class="uk-active"' %}
                     {% else %}
                         {% assign current = null %}
                     {% endif %}
+
                     {% if link.title %}
                         <li{{ current }}><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" {% endif %}>{{ link.title }}</a></li>
                     {% endif %}

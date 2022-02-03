@@ -5,7 +5,7 @@
     - title: Contact
       desc: get in touch 
       icon: settings
-      url: pages/contact
+      url: contact
 
     - title: Location
       desc: find us

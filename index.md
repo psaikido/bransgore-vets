@@ -1,7 +1,7 @@
 ---
 layout: help
 title: 
-subtitle: 
+url: /
 
 hero:
     background: "#ccddee"

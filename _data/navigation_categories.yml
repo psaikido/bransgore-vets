@@ -3,18 +3,25 @@
 - heading: Small Animal Vets in Bransgore
   categories:
     - title: Contact
-      desc: get in touch 
-      icon: settings
+      icon: receiver
       url: contact
 
+    - title: Links
+      icon: link
+      url: links
+
     - title: Location
-      desc: find us
-      icon: credit-card
+      icon: location 
+      url: location
+
+    - title: Fireworks
+      icon: bolt
+      url: fireworks
+        
+    - title: Christmas
+      icon: star
+      url: christmas
 
     - title: Newsletters
-      desc: info
-      icon: cog
+      icon: comments
 
-    - title: Stuff
-      desc: info
-      icon: cog

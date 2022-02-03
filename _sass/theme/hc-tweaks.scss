@@ -1,4 +1,5 @@
 $hilight: #890906;
+$muted: #aaa;
 $base-bkg-color: #f8f8f8;
 
 html, body {
@@ -11,6 +12,12 @@ html, body {
 }
 
 header {
+    .uk-light .uk-navbar {
+        a, a:visited {
+            color: #fff;
+        }
+    }
+
     .uk-navbar-center .logo-accreditation {
         position: absolute;
         top: 30px;
@@ -47,14 +54,25 @@ header {
     }
 }
 
+.section-title-primary,
 .hilight {
     color: $hilight;
 }
 
-.uk-article-content {
-    a {
-        color: $hilight;
-    }
+.uk-article-content a {
+    color: $hilight;
+}
+
+.uk-section-small {
+    padding-bottom: 0;
+}
+
+.section-title {
+    margin-bottom: 21px;
+}
+
+.hc-card-link {
+    color: $muted;
 }
 
 footer {

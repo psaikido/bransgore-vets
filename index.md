@@ -11,7 +11,7 @@ hero:
     text: light
     search: true
 category:
-    columns: 4
+    columns: 6
 ---
 
 Bransgore Vets next to the Twin Oaks Medical Centre in Bransgore opposite the main shopping parade.

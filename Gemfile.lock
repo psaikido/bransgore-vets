@@ -288,6 +288,7 @@ DEPENDENCIES
   jekyll-livereload
   jekyll-paginate (~> 1.1)
   jekyll-seo-tag
+  jekyll-sitemap
   kramdown
   kramdown-parser-gfm
   tzinfo-data

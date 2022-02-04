@@ -51,6 +51,7 @@ highlighter:        rouge
 plugins:
   - jekyll-seo-tag
   - jekyll-gist
+  - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock

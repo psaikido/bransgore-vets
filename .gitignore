@@ -1,5 +1,7 @@
-/desk-theme/*
-/_site/*
-/node_modules/*
 .sass-cache
 .jekyll-metadata
+.bundle
+/_site/*
+/desk-theme/*
+/node_modules/*
+/vendor/*

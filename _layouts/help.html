@@ -60,7 +60,7 @@ function showContainer(id) {
                 {% assign posts = category | last %}
                 <div>
                     <div id="{{ category.title | slugify }}-card" class="uk-card uk-card-small uk-card-hover uk-border-rounded uk-card-body uk-inline card-category">
-                        <a class="uk-position-cover" href="{{ category.url }}"></a>
+                        <a class="uk-position-cover" href="{{ category.url | absolute_url }}"></a>
                         {% if category.icon %}
                         <span data-uk-icon="icon: {{ category.icon }}; ratio: 2" class=""></span>
                         {% endif %}

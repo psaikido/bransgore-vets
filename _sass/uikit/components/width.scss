@@ -27,7 +27,7 @@ $width-2xlarge-width:                            750px !default;
 
 [class*='uk-child-width'] > * {
     box-sizing: border-box;
-    width: 100%;
+    /*width: 100%;*/
 }
 
 .uk-child-width-1-2 > * { width: 50%; }

@@ -107,6 +107,7 @@ footer {
         line-height: 47px;
     }
 }
+
 .hc-table {
     width: 100%;
 
@@ -117,3 +118,69 @@ footer {
     }
 }
 
+@media only screen
+and (min-device-width: 360px)
+and (max-device-width: 740px) {
+
+    html {
+        font-size: 12px;
+    }
+
+    header {
+        max-height: 155px;
+    }
+
+    .section-hero {
+        padding-top: 0;
+
+        .main-logo {
+            width: 60%;
+        }
+
+        .hilight {
+            color: #fff;
+        }
+
+        .hero-search {
+            display: none;
+        }
+    }
+
+    .uk-background-center-center {
+        background-position: 50% 5%;
+    }
+
+    .uk-background-cover {
+        background-size: contain;
+    }
+
+    .uk-navbar-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .logo-accreditation {
+        display: none;
+    }
+
+    .uk-grid {
+        margin-left: -15px;
+    }
+
+    .uk-card-small.uk-card-body {
+        padding: 0;
+    }
+
+    .uk-card {
+        width: 32%;
+    }
+
+    .uk-card-title {
+        font-size: .9em;
+    }
+
+    main {
+        /*margin-top: 50px;*/
+    }
+}

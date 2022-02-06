@@ -23,7 +23,11 @@
 
         <div class="uk-section section-hero {{ text }}" data-uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat: true">
             <div class="uk-container">
-                <img class="uk-align-center main-logo" src="{{ site.img_assets | absolute_url }}{{ site.logo_image.light }}" />
+                <div class="logo-accreditation">
+                    <img class="" src="{{ site.img_assets | absolute_url }}rcvs_accredited.png" alt="{{ site.title }}">
+                </div>
+
+                <img class="uk-align-center main-logo" src="{{ site.img_assets | absolute_url }}{{ site.logo_image.header }}" />
                 {% if page.subtitle %}<p class="subtitle uk-text-lead uk-text-center">{{ page.subtitle | escape }}</p>{% endif %}
 
                 <div class="uk-text-center uk-light hilight">

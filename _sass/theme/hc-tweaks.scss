@@ -12,38 +12,49 @@ html, body {
 }
 
 header {
+    nav:not(.uk-navbar-transparent) {
+        border: none;
+    }
+
     .uk-light .uk-navbar {
         a, a:visited {
             color: #fff;
         }
     }
 
-    .uk-navbar-center .logo-accreditation {
+    .uk-navbar-nav {
+        height: 59px;
+    }
+
+    .logo-accreditation {
         position: absolute;
-        top: 30px;
-        left: -150px;
+        top: 5px;
+        left: 14px;
+
+        img {
+            height: 80px;
+        }
     }
 
     &.uk-background-secondary {
-        .logo-accreditation {
-            position: absolute;
-            top: 0;
-            left: 0;
-
-            img {
-                height: 80px;
-            }
-        }
+        background-color: $base-bkg-color;
+        height: 100px;
 
         .logo-pages {
             position: absolute;
             top: 0;
-            right: 0;
-
-            img {
-                height: 80px;
-            }
+            left: 5px;
+            height: 80px;
+            width: 288px;
+            margin: 3px auto 0 auto;
         }
+
+        #search {
+            position: absolute;
+            top: 2px;
+            right: 0;
+        }
+
         .uk-navbar-container:not(.uk-navbar-transparent) {
             background-color: $base-bkg-color;
         }
@@ -52,6 +63,7 @@ header {
     li.uk-active {
         border-bottom: 1px solid $hilight;
     }
+
 }
 
 .section-title-primary,
@@ -63,8 +75,9 @@ header {
     color: $hilight;
 }
 
+.uk-section,
 .uk-section-small {
-    padding-bottom: 0;
+    padding: 0;
 }
 
 .section-title {
@@ -118,6 +131,8 @@ footer {
     }
 }
 
+
+
 @media only screen
 and (min-device-width: 360px)
 and (max-device-width: 740px) {
@@ -128,21 +143,43 @@ and (max-device-width: 740px) {
 
     header {
         max-height: 155px;
+
+        &.uk-background-secondary {
+            .logo-pages {
+                left: 75px;
+
+                img {
+                    max-width: 80%;
+                }
+            }
+
+            .uk-navbar-sticky {
+                height: 75px;
+            }
+
+            #search {
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 20%;
+                height: 75px;
+                background-color: $base-bkg-color;
+            }
+
+        }
     }
+
 
     .section-hero {
         padding-top: 0;
 
         .main-logo {
             width: 60%;
+            margin-top: 0;
         }
 
         .hilight {
             color: #fff;
-        }
-
-        .hero-search {
-            display: none;
         }
     }
 
@@ -181,6 +218,21 @@ and (max-device-width: 740px) {
     }
 
     main {
-        /*margin-top: 50px;*/
+        padding-top: 10px;
+
+        .uk-section-small {
+            padding-top: 0;
+        }
+    }
+
+    footer {
+        .footer-left {
+            line-height: 12px;
+            margin-top: 14px;
+        }
+
+        .footer-center img {
+            width: 40px;
+        }
     }
 }

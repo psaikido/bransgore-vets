@@ -24,6 +24,8 @@ header {
 
     .uk-navbar-nav {
         height: 59px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .logo-accreditation {
@@ -71,6 +73,10 @@ header {
     color: $hilight;
 }
 
+.section-title-primary {
+    margin-top: 20px;
+}
+
 .uk-article-content a {
     color: $hilight;
 }
@@ -101,6 +107,10 @@ footer {
         float: left;
         width: 40%;
         text-align: center;
+
+        img {
+            width: 40px;
+        }
     }
 
     .footer-right {
@@ -165,7 +175,6 @@ and (max-device-width: 740px) {
                 height: 75px;
                 background-color: $base-bkg-color;
             }
-
         }
     }
 
@@ -180,6 +189,9 @@ and (max-device-width: 740px) {
 
         .hilight {
             color: #fff;
+        }
+
+        #search {
         }
     }
 

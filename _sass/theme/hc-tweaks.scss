@@ -192,6 +192,7 @@ and (max-device-width: 740px) {
         }
 
         #search {
+            margin-top: 15px;
         }
     }
 
@@ -227,6 +228,10 @@ and (max-device-width: 740px) {
 
     .uk-card-title {
         font-size: .9em;
+    }
+
+    .uk-drop {
+        width: 175px;
     }
 
     main {

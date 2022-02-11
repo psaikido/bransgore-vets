@@ -13,7 +13,7 @@ url:                "https://psaikido.github.io/bransgore-vets"
 # Site logo, dark and light depending on page hero text setting dark/light
 logo_image:
   header: logo-bransgorevets.jpg
-  footer: logo.jpg
+  footer: logo.png
 
 # Author settings, displayed on about page
 author:

@@ -1,10 +1,12 @@
 $hilight: #890906;
 $muted: #aaa;
+$bkg-muted: #e8e8e8;
 $base-bkg-color: #f8f8f8;
 
 html, body {
     height: 100%;
     margin: 0;
+    background-color: $base-bkg-color;
 }
 
 #wrapper {
@@ -98,6 +100,7 @@ header {
 
 footer {
     border-top: 1px solid $border-light;
+    background-color: $bkg-muted;
     height: 52px;
 
     .footer-left {
@@ -119,6 +122,11 @@ footer {
         float: right;
         width: 30%;
         text-align: right;
+
+        a {
+            color: $hilight;
+            font-style: italic;
+        }
     }
 
     .copyright,

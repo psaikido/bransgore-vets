@@ -5,7 +5,7 @@ layout: null
   {% for page in site.pages %}
     {
     "title"    : "{{ page.title | escape }}",
-    "url"      : "{{ site.baseurl }}{{ page.url }}"
+    "url"      : "{{ site.url | absolute_url }}{{ page.url }}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]

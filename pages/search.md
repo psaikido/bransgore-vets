@@ -20,6 +20,6 @@ SimpleJekyllSearch({
     resultsContainer: document.getElementById('navbar-search-results'),
     noResultsText: '<li>No results found</li>',
     searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
-    json: '{{ "search.json" | relative_url }}'
+    json: '{{ "search.json" | abolute_url }}'
 });
 </script>

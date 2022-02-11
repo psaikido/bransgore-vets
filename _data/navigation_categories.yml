@@ -26,3 +26,7 @@
       icon: comments
       url: newsletters
 
+    - title: Search
+      icon: search
+      url: search
+

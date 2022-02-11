@@ -33,30 +33,6 @@
                 <div class="uk-text-center uk-light hilight">
                    Tel: 01425 672742 
                 </div>
-
-                {% if page.hero.search %}
-                    <div id="search">
-                        <a class="uk-navbar-toggle" data-uk-search-icon href="#"></a>
-                        <div class="uk-drop uk-background-default uk-border-rounded" data-uk-drop="mode: click; pos: center; offset: 0">
-                            <form class="uk-search uk-search-navbar uk-width-1-1" onsubmit="return false;">
-                                <input id="navbar-search" class="uk-search-input" type="search" placeholder="Search..." autofocus>
-                            </form>
-                            <ul id="navbar-search-results" class="uk-position-absolute uk-width-1-1 uk-list"></ul>
-                        </div>
-                    </div>
-
-                    <script>
-                    SimpleJekyllSearch({
-                        searchInput: document.getElementById('navbar-search'),
-                        resultsContainer: document.getElementById('navbar-search-results'),
-                        noResultsText: '<li>No results found</li>',
-                        searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
-                        json: '{{ "search.json" | relative_url }}'
-                    });
-                    </script>
-
-                {% endif %}
-
             </div>
         </div>
     </div>

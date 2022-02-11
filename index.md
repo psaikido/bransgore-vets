@@ -9,9 +9,9 @@ hero:
     overlay: "linear-gradient(-200deg, rgba(101, 51, 153, 0.3) 0%, rgba(90, 51, 153, 0.3) 53%, rgba(71, 51, 153, 0.3) 100%)"
     align: center
     text: light
-    search: true
+    search: false
 category:
-    columns: 6
+    columns: 4
 ---
 
 Bransgore Vets next to the Twin Oaks Medical Centre in Bransgore opposite the main shopping parade.

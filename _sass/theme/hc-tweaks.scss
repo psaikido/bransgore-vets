@@ -12,6 +12,9 @@ html, body {
 }
 
 header {
+    height: 394px;
+    max-height: 394px;
+
     nav:not(.uk-navbar-transparent) {
         border: none;
     }
@@ -51,12 +54,6 @@ header {
             margin: 3px auto 0 auto;
         }
 
-        #search {
-            position: absolute;
-            top: 2px;
-            right: 0;
-        }
-
         .uk-navbar-container:not(.uk-navbar-transparent) {
             background-color: $base-bkg-color;
         }
@@ -84,10 +81,15 @@ header {
 .uk-section,
 .uk-section-small {
     padding: 0;
+    margin-top: 25px;
 }
 
 .section-title {
     margin-bottom: 21px;
+}
+
+.uk-card-small.uk-card-body {
+    padding: 0;
 }
 
 .hc-card-link {
@@ -152,7 +154,8 @@ and (max-device-width: 740px) {
     }
 
     header {
-        max-height: 155px;
+        height: 141px;
+        max-height: 141px;
 
         &.uk-background-secondary {
             .logo-pages {
@@ -166,18 +169,8 @@ and (max-device-width: 740px) {
             .uk-navbar-sticky {
                 height: 75px;
             }
-
-            #search {
-                position: absolute;
-                top: 0;
-                right: 0;
-                width: 20%;
-                height: 75px;
-                background-color: $base-bkg-color;
-            }
         }
     }
-
 
     .section-hero {
         padding-top: 0;
@@ -190,18 +183,10 @@ and (max-device-width: 740px) {
         .hilight {
             color: #fff;
         }
-
-        #search {
-            margin-top: 15px;
-        }
     }
 
     .uk-background-center-center {
         background-position: 50% 5%;
-    }
-
-    .uk-background-cover {
-        background-size: contain;
     }
 
     .uk-navbar-container {

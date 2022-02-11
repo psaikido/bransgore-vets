@@ -1,19 +1,21 @@
 <div class="uk-container">
     <div data-uk-navbar>
-        <ul class="uk-navbar-nav uk-visible@m">
-            {% for link in site.data.navigation_header %}
-                {% if link.title == page.title %}
-                    {% assign current = ' class="uk-active"' %}
-                {% else %}
-                    {% assign current = null %}
-                {% endif %}
+        <div class="uk-navbar-center">
+            <ul class="uk-navbar-nav uk-visible@m">
+                {% for link in site.data.navigation_header %}
+                    {% if link.title == page.title %}
+                        {% assign current = ' class="uk-active"' %}
+                    {% else %}
+                        {% assign current = null %}
+                    {% endif %}
 
-                {% if link.title %}
-                    <li{{ current }}><a href="{{ site.url | absolute_url }}/{{ link.url }}">{{ link.title }}</a></li>
-                {% endif %}
-            {% endfor %}
-        </ul>
+                    {% if link.title %}
+                        <li{{ current }}><a href="{{ site.url | absolute_url }}/{{ link.url }}">{{ link.title }}</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
 
-        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-navbar-toggle-icon data-uk-toggle></a>
+            <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-navbar-toggle-icon data-uk-toggle></a>
+        </div>
     </div>
 </div>

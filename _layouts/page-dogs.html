@@ -26,7 +26,7 @@ layout: default
                             {% if sublink.url == pageurl %}
                                 {{ sublink.title }}
                             {% else %}
-                                <a href="{{ sublink.url | absolute_url }}">{{ sublink.title }}</a>
+                                <a href="{{ site.url | absolute_url }}/{{ sublink.url }}">{{ sublink.title }}</a>
                             {% endif %}
                             </li>
                         {% endfor %}

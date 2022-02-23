@@ -19,7 +19,7 @@ permalink: healthcare
     {% endif %}
 
     {% if link.title %}
-- [{{ link.title }}]( {{ domain }}{{ link.url }} )
+- [{{ link.title }}]( {{ domain }}/{{ link.url }} )
     {% endif %}
 {% endfor %}
 

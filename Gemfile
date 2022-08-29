@@ -31,3 +31,5 @@ group :jekyll_plugins do
   gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 end
 
+
+gem "webrick", "~> 1.7"
